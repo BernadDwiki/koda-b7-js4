@@ -17,9 +17,9 @@ while(j < primitif.length){
     j = j+1;
 }
 
-i = 0;
-array =0;
-object =0;
+let i = 0;
+let array =0;
+let object =0;
 while(i < arr.length ){
     if(Array.isArray(arr[i])){
         array = array +1;
